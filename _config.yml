@@ -1,1 +1,11 @@
 theme: jekyll-theme-slate
+author: Antti Pohjola
+email: summeli@summeli.com
+description: > # this means to ignore newlines until "baseurl:"
+  Antti Pohjola's personnal blog
+
+# social links
+twitter_username: Summeli # DO NOT include the @ character, or else the build will fail!
+github_username:  Summeli # DO NOT include the @ character, or else the build will fail!
+
+show_excerpts: true # set to false to remove excerpts on the homepage
