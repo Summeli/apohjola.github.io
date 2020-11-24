@@ -1,7 +1,8 @@
 layout: page
 title: "Terveydenhoitoalan yhtiöiden tietoturvasta"
 date: 2020-11-23
-categories: cybersecurity
+resource: true
+categories: blogposts
 
 # Terveydenhoitoalan yhtiöiden tietoturvasta
 

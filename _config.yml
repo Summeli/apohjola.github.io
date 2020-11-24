@@ -3,7 +3,7 @@ author: Antti Pohjola
 email: summeli@summeli.com
 description: > # this means to ignore newlines until "baseurl:"
   Antti Pohjola's personnal blog
-
+category-list: [blogposts, code]
 # social links
 twitter_username: Summeli # DO NOT include the @ character, or else the build will fail!
 github_username:  Summeli # DO NOT include the @ character, or else the build will fail!
