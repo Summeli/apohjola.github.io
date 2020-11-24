@@ -6,4 +6,4 @@ category: blog
 
 # Terveydenhoitoalan yhtiöiden tietoturvasta
 
-Let's start with training for github pages
+Analysoin terveydenhoitoalan yhtiöiden tietoturvaa...
