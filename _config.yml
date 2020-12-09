@@ -58,11 +58,23 @@ encoding: "utf-8"
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 10 # amount of posts to show
-paginate_path: "/page:num/"
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 excerpt_separator: <!--more-->
 date_format:  "%Y %m, %d"
+
+pagination:
+enabled: true
+  enabled: true 
+  collection: 'posts'
+  permalink: '/page/:num/' 
+  category: 'posts' 
+  per_page: 5 
+  sort_reverse: true 
+  sort_field: 'date' 
+  title: 'Blog' 
+  limit: 10 
+  tag: '' 
+
 
 # Defaults
 defaults:
@@ -92,6 +104,10 @@ highlighter:  rouge
 theme: # minima for new installs. leave blank if using custom theme / developing locally
 lsi:  true  # produces an index for related posts, requires classifier-reborn plugin
 incremental: false
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
