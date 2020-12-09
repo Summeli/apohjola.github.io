@@ -31,6 +31,6 @@
 
 
     <p class="small">&copy; {{ site.time | date: '%Y' }}
-      {% assign site_name = site.name | default: site.title | append: '.' %}  All rights reserved.</p>
+      {% assign site_name = site.name | default: site.title | append: '.' %}{% inner=site_name %}  All rights reserved.</p>
   </div>
 </div>
