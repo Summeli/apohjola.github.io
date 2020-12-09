@@ -53,8 +53,6 @@ twitter_username: summeli
 github_username: summeli
 
 
-
-
 # # # # Build settings # # # #
 encoding: "utf-8"
 
@@ -84,12 +82,6 @@ collections:
     output: true
     permalink: /:path
 
-
-# Filtering
-limit_posts:  0
-show_drafts:  false
-future:  false
-unpublished:  false
 
 # Conversion
 markdown: kramdown
