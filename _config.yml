@@ -22,7 +22,7 @@ webaddress: "https://apohjola.com"  # to avoid messing with url or baseurl
 
 tagline: "apohjola.com"
 description: > # this means to ignore newlines until "baseurl:"
-  The personal website and development portfolio of Jessica Reel
+  The personal website of Antti Pohjola
 # There is much confusion around the use of the settings for url and baseurl.
 # With newest version of Jekyll, you *should* only need to specify baseurl,
 #   and that ONLY if your site is hosted under a subdirectory.
