@@ -63,16 +63,16 @@ excerpt_separator: <!--more-->
 date_format:  "%Y %m, %d"
 
 pagination:
-enabled: true
-collection: 'posts'
-permalink: '/page/:num/' 
-category: 'posts' 
-per_page: 5 
-sort_reverse: true 
-sort_field: 'date' 
-title: 'Blog' 
-limit: 10 
-tag: '' 
+   enabled: true
+   collection: 'posts'
+   permalink: '/page/:num/' 
+   category: 'posts' 
+   per_page: 5 
+   sort_reverse: true 
+   sort_field: 'date' 
+   title: 'Blog' 
+   limit: 10 
+   tag: '' 
 
 
 # Defaults
