@@ -46,7 +46,7 @@ url:  # pretty sure this is auto-set during build, so I'd leave it alone if I we
 # # # # Social, API, etc. settings # # # #
 
 # Google analytics
-google_analytics: # add your UA id here
+google_analytics: G-FYYREVPFDF
 
 # Social media
 twitter_username: summeli 
