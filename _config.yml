@@ -60,11 +60,11 @@ encoding: "utf-8"
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate: 10 # amount of posts to show
+paginate_path: /blog/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 excerpt_separator: <!--more-->
-date_format:  "%b %-d, %Y" # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+date_format:  "%Y %-m, %d"
 
 # Defaults
 defaults:
@@ -74,7 +74,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true   # change to false to default to comments off site-wide
+      comments: false   # change to false to default to comments off site-wide
       published: true  # default to published
 
 
