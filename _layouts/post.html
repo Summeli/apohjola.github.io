@@ -12,7 +12,7 @@ comments: true
 
     <div class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign date_format = site.date_format | default: "%Y.%-d.%b" %}
+        {% assign date_format = site.date_format | default: "%Y-%m-%d" %}
         {{ page.date | date: date_format }}
       </time>
 
