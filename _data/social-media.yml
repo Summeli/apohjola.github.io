@@ -29,7 +29,7 @@ github:
   fa-icon: 'fa-github-square'
 
 linkedin:
-  id: 'antti.pohjola'
+  id: 'antti-pohjola'
   href: 'https://www.linkedin.com/in/'
   title: 'LinkedIn'
   fa-icon: 'fa-linkedin-square'
@@ -47,7 +47,7 @@ stackoverflow:
   fa-icon: 'fa-stack-overflow'
 
 youtube:
-  id: 'UCH2A1M35TShE6JRTzvTPMWA'
+  id: 'channel/UCH2A1M35TShE6JRTzvTPMWA'
   href: 'https://youtube.com/'
   title: 'YouTube'
   fa-icon: 'fa-youtube'
