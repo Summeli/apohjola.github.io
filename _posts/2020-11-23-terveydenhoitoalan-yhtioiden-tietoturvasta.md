@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: post
 title: "Terveydenhoitoalan yhtiöiden tietoturvasta"
 date: 2020-11-23
-resource: true
 category: blog
 ---
 

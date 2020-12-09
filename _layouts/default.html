@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% assign jekyll_env = jekyll.environment %}
+    {% assign site_url = site.url %}
+    {% if site.github.url %}
+      {% assign site_url = site.github.url %}
+    {% endif %}
+    {% if jekyll_env == "development" %}
+      {% assign site_url = "http://localhost:4000" %}
+    {% endif %}
+
+    <!-- jekyll.environment == {{ jekyll.environment }} -->
+    <!-- site.url == {{ site.url }} -->
+    <!-- page.url == {{ page.url }} -->
+    <!-- page.url | absolute_url == {{ page.url | absolute_url }} -->
+
+    {% include sidebar.html %}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper content container">
+        {{ content }}
+      </div>
+    </main>
+
+  </body>
+</html>

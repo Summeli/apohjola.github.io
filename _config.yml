@@ -1,11 +1,147 @@
-theme: jekyll-theme-midnight
-author: Antti Pohjola
-email: summeli@summeli.com
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# # # # Site settings # # # #
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+locale: "en"
+lang:  "en-us"
+title: "apohjola.com"  # title of your website
+name:  "Antti Pohjola"  # your name or organization name
+email: "antti@apohjola.com"
+webaddress: "https://apohjola.com"  # to avoid messing with url or baseurl
+
+tagline: "apohjola.com"
 description: > # this means to ignore newlines until "baseurl:"
-  Antti Pohjola's personnal blog
-# social links
-twitter_username: Summeli # DO NOT include the @ character, or else the build will fail!
-github_username:  Summeli # DO NOT include the @ character, or else the build will fail!
-linkedin: #antti.pohjola
+  The personal website and development portfolio of Jessica Reel
+# There is much confusion around the use of the settings for url and baseurl.
+# With newest version of Jekyll, you *should* only need to specify baseurl,
+#   and that ONLY if your site is hosted under a subdirectory.
+#   An example of this would be for GitHub Project pages, hosted at http://YOU.github.io/PROJECT
+#   In this case, set the baseurl to "/PROJECT".
+#
+# For GitHub User pages, hosted at http://YOU.github.io
+#  you DO NOT need to include the baseurl (in fact, things will break if you do).
+#
+# The newest version of Jekyll includes the absolute_url and relative_url filters
+#  and I use them in my templates to hopefully make hrefs *just work* no matter what.
+#  (By doing that, we shouldn't even need to use site.url in the template at all.)
+#
+# see also:  http://downtothewire.io/2015/08/15/configuring-jekyll-for-user-and-project-github-pages/
+# and:  https://github.com/jekyll/jekyll/pull/5399
+baseurl:  ""  # empty for GitHub User page; "/your-repo" (NO trailing slash) for Project page
+url:  # pretty sure this is auto-set during build, so I'd leave it alone if I were you
+
+
+
+# # # # Social, API, etc. settings # # # #
+
+# Google analytics
+google_analytics: # add your UA id here
+
+# Social media
+twitter_username: summeli 
+github_username: summeli
+
+
+
+
+# # # # Build settings # # # #
+encoding: "utf-8"
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 excerpt_separator: <!--more-->
-show_excerpts: true # set to false to remove excerpts on the homepage
+date_format:  "%b %-d, %Y" # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true   # change to false to default to comments off site-wide
+      published: true  # default to published
+
+
+#Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path
+
+
+# Filtering
+limit_posts:  0
+show_drafts:  false
+future:  false
+unpublished:  false
+
+# Conversion
+markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+kramdown:
+  input: GFM # enable github-flavored markdown
+highlighter:  rouge
+theme: # minima for new installs. leave blank if using custom theme / developing locally
+lsi:  true  # produces an index for related posts, requires classifier-reborn plugin
+incremental: false
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+include:
+  - .htaccess
+  - _pages
+  - _articles
+  - _data
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - CNAME
+  - config
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs
+  - /test
+keep_files:
+  - .git
+  - .svn
