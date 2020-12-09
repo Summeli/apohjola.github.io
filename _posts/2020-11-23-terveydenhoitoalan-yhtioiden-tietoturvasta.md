@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Terveydenhoitoalan yhtiöiden tietoturvasta"
-category: blog
+published: true
 ---
 
 Tässä käydään läpi terveydenhoitoalan ns. b-luokan firmojen web-sivujen tietoturvaa.
