@@ -52,10 +52,6 @@ google_analytics: G-FYYREVPFDF
 twitter_username: summeli 
 github_username: summeli
 
-#plugins
-plugins:
-  - jekyll-paginate-v2
-
 # # # # Build settings # # # #
 encoding: "utf-8"
 
@@ -71,10 +67,7 @@ pagination:
   sort_reverse: true
   sort_field: 'date'
   title: ':title'
-  trail:
-    before: 2
-    after: 2
-
+  category: posts
 
 # Defaults
 defaults:
