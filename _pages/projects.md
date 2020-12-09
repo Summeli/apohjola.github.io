@@ -4,12 +4,11 @@ title: Projects
 permalink: /projects/
 ---
 
-You can view many of my coding projects on [my GitHib page](https://github.com/summeli?tab=repositories).
+You can view many of my coding projects on [my GitHub page](https://github.com/summeli?tab=repositories).
 
 ### Finice.net: Finice ice climbing competition
-Few finicexxx.com websites over few years
+finicexxx.com websites over few years
 
-- Repo: [https://github.com/jreel/js-chem](https://github.com/jreel/js-chem)
 - sites:
   - [finice2021.com](https://github.com/Summeli/finice2021.github.io)
   - [finice2020.com](https://github.com/Summeli/finice2020.github.io)
