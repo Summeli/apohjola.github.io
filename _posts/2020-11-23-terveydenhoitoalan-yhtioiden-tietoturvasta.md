@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "Terveydenhoitoalan yhtiöiden tietoturvasta"
-date: 2020-11-23
 ---
 
-Tässä käydään läpi terveydenhoitoalan...
+Tässä käydään läpi terveydenhoitoalan ns. b-luokan firmojen web-sivujen tietoturvaa.
 <!--more-->
 
 ## Terveydenhoitoalan yhtiöiden tietoturvasta
 
 Analysoin terveydenhoitoalan yhtiöiden tietoturvaa...
+
+## Löydöksiä
