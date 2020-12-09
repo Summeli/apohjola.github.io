@@ -1,8 +1,8 @@
 <div class="posts">
+	<p>Kissa</p>
     <ul class="post-list">
     {% for post in paginator.posts %}
         {% if post.published %}
-	<p>Kissa</p>
     <li class="post">
         <h1 class="post-title">
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
