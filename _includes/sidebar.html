@@ -30,7 +30,9 @@
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
       <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
     </nav>
+	{% include social-media-links.html %}
+	  
+    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
 
-    <p>&copy; {{ site.time | date: '%Y' }}.Antti Pohjola All rights reserved.</p>
   </div>
 </div>
