@@ -31,11 +31,11 @@ Tai vastaavasti kannattaisi käyttää [SSL Labsin](https://www.ssllabs.com/sslt
 
 Mikäli käyttäjän järjestelmä on ajantasalla, niin yhteys muodostuu aina turvallisella TLS-versiolla. Palvelun tarjoajan vastuulla onkin estää yhteydet vanhentuneilla (turvattomilla) järjestelmillä. Suomessa kannattaa ottaa esimerkkiä esim. op-ryhmästä, joka lopettaa vanhojen laitteiden ja järjestelmien tuen, jotta asiakkaiden rahat ja tiedot pysyisivät turvassa [Iltalehti: Tapion toimivasta tabletista tuli yhtäkkiä romua](https://www.iltalehti.fi/digiuutiset/a/06c25ed4-ba01-4ed3-9bc6-b86bf70cea1f). Op.fi ei tue TLS:n versioita 1.1, eikä 1.0. Monet suomalaiset joutuvat siis jo verkkopankkia käyttääkseen pitämään järjestelmänsä ajantasalla. Terveysalantoimijoilla ei näinollen voi olla liiketoiminnallista perustetta tukea vanhoja ja turvattomia versioita. 
 
-### Tarkat serverin versionumerot palautuvat vastauksiin
+### Tarkat palvelinversiot palautuvat käyttäjälle
 
 Tämä oli ensimmäinen hälyyttävä havainto. Miltei poikkeuksetta kaikki B-luokitellut järjestelmät palauttivat tarkkoja palvelinversioita käyttäjille. Jos joku oikeasti yrittäisi tehdä tietomurtoa, niin ensimmäinen kiinnostava asia on että millainenkohan järjestelmä tässä olisi takana. 
 
-Tarkat versiotiedot auttavat hyökkääjää melkoisesti, sillä silloin voidaan etsiä tunnettuja haavoittuvuuksia vaikka googlella hakemalla esim. "Microsoft-IIS 7.5 vulnerabilities". Nopeasti löydetään dukumentoituja tietoturva-aukkoja, joita hyödyntämällä järjestelmään voitaisiin tunkeutua. Joukussa oli myös paljon avoimen koodit palvelimia (esim. nginx), josta voidaan tarkalla versionumerolla hakea versionhallinnnasta koodit, ja etsiä mahdollisia haavoittuvuuksia.
+Tarkat versiotiedot auttavat hyökkääjää melkoisesti, sillä silloin voidaan etsiä tunnettuja haavoittuvuuksia vaikka googlella hakemalla esim. "Microsoft-IIS 7.5 vulnerabilities". Nopeasti löydetään dukumentoituja tietoturva-aukkoja, joita hyödyntämällä järjestelmään voitaisiin tunkeutua. Joukossa oli myös paljon avoimen koodit palvelimia (esim. nginx), josta voidaan tarkalla versionumerolla hakea versionhallinnnasta koodit, ja etsiä mahdollisia haavoittuvuuksia.
 
 Tarkkojen versiotietojen poistaminen on ensimmäisiä muutoksia joita järjestelmään tulisi tehdä heti oletussalasanojen vaihtamisen jälkeen. Tämä ei todellakaan näytä hyvältä! Epäilen, että ainuttakaan B-luokan järjestelmää ei olla auditoitu minkään ulkopuolisen tahon toimesta. Tämä ei olisi jäänyt ainoaltakaan ammattilaiselta huomaamatta.
 
