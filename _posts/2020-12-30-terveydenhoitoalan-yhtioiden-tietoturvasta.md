@@ -55,5 +55,5 @@ Admin konsolien löytäminen on hyvin helppoa. Riittää, että koitat ladata /p
 Minun on hieman vaikea ymmärtää, miksi näiden sivustojen hallintaan tarkoitettujen paneelien tulee olla auki julkiseen Internettiin päin? Miksei näihin pääsyä rajata verkkotasolla? Entä jos joku admin-oikeudet omistava henkilö on valinnut huonon salasanan. Esim. salasanan, joka on ollut jo osana aikaisempaa salasanojen vuotoa? Tai mitä jos joku tekeisi saman näköisen sivun, mutta pyrkisi hyvin kohdennetulla "phishing" hyökkäyksellä saamaan admin-käyttäjän salasanan? 
 
 Alla esimerkkejä login-näkymistä. 
-![phpmyadmin](/_assets/images/phpmyadmin.png "phpmyadmin")
-![puhtiadmin](/_assets/images/omapuhti_admin.png "puhti adminconsole")
+![phpmyadmin](/public/images/phpmyadmin.png "phpmyadmin")
+![puhtiadmin](/public/images/omapuhti_admin.png "puhti adminconsole")
