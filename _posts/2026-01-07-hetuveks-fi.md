@@ -8,7 +8,7 @@ Oulun asuntonäytöillä käydessäni sähköpostiini on vuosien varrella tupsah
 
 Vanhoissa maankäyttösopimuksissa, vuokrapapereissa ja muissa liitteissä hetut ovat lähes aina mukana, mikä tarkoittaa käytännössä sitä, että sähköpostini on täynnä ihmisten henkilötietoja. Ratkaisu, joka ei oikein kestä tarkastelua tietoturvan, GDPR:n jne. näkökulmasta
 
-Joululoman aikana päätin tehdä asialle jotain ja kirjoitin palvelun https://hetuveks.fi. Palvelu poistaa henkilötunnukset PDF-dokumenteista automaattisesti.
+Joululoman aikana päätin tehdä asialle jotain ja kirjoitin palvelun [hetuveks.fi](https://hetuveks.fi). Palvelu poistaa henkilötunnukset PDF-dokumenteista automaattisesti.
 
 Hetuveks toimii:
 * tekstipohjaisissa PDF-tiedostoissa
